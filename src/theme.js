@@ -40,11 +40,21 @@ export default {
       fontWeight: 'heading',
     },
   },
+  containers: {
+    normal: {
+      variant: 'styles.container',
+      maxWidth: '1690px',
+      bg: 'primary',
+    }
+  },
   styles: {
     root: {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
+    },
+    container: {
+      m: '0 auto',
     },
     h1: {
       variant: 'text.heading',
