@@ -1,0 +1,20 @@
+{
+  "name": "annematilde-website",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "repository": "git@github.com:AnneMatilde/website.git",
+  "author": "Anne Matilde R. Fjeldstad",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
