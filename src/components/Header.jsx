@@ -2,7 +2,7 @@
 import { jsx, Box } from 'theme-ui';
 
 const Header = () => {
-  return <Box>Dette er en header</Box>;
+  return <Box sx={{ bg: 'primary'}}><img src="/images/am_logo_white.png" alt="" /></Box>;
 };
 
 export default Header;

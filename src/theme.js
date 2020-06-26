@@ -24,6 +24,7 @@ export default {
     background: '#fff',
     primary: '#21383F',
     secondary: '#D8B2B2',
+    white: '#fff',
     modes: {
       dark: {
         text: '#244D4D',
