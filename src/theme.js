@@ -20,16 +20,16 @@ export default {
     heading: 1.125,
   },
   colors: {
-    text: '#000',
+    text: '#244D4D',
     background: '#fff',
-    primary: '#07c',
-    secondary: '#609',
+    primary: '#21383F',
+    secondary: '#D8B2B2',
     modes: {
       dark: {
-        text: '#fff',
-        background: '#222',
-        primary: '#0cf',
-        secondary: '#90c',
+        text: '#244D4D',
+        background: '#fff',
+        primary: '#21383F',
+        secondary: '#D8B2B2',
       },
     },
   },
