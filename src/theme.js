@@ -45,9 +45,18 @@ export default {
     normal: {
       variant: 'styles.container',
       maxWidth: '1690px',
-      bg: 'primary',
+      padding: '100px'
     }
   },
+
+  cards: {
+    primary: {
+      height: 700,
+      width: 800,
+    },
+  },
+
+
   styles: {
     root: {
       fontFamily: 'body',
