@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "index.js",
-  "repository": "git@github.com:AnneMatilde/website.git",
+  "repository": "github:AnneMatilde/generate-runtypes",
   "author": "Anne Matilde R. Fjeldstad",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -14,12 +14,23 @@
     "lint": "prettier --write src/**"
   },
   "dependencies": {
-    "next": "^9.4.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "theme-ui": "^0.3.1"
+    "@theme-ui/components": "^0.11.3",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.2",
+    "theme-ui": "^0.11.3"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
-  }
+    "@bjerk/eslint-config": "^1.0.0",
+    "@cobraz/prettier-config": "^1.0.1",
+    "@types/react": "^17.0.27",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "jest": "^27.1.0",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  },
+  "prettier": "@cobraz/prettier-config"
 }

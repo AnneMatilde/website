@@ -1,15 +1,16 @@
-export default {
+export const theme = {
   initialColorModeName: 'light',
   useColorSchemeMediaQuery: true,
   breakpoints: ['40em', '52em', '64em'],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
     body:
-      'agenda, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: 'inherit',
+      '"EB Garamond", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", serif',
+    heading:
+      'Syne, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", serif',
     monospace: 'Menlo, monospace',
   },
-  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 80],
   fontWeights: {
     body: 400,
     heading: 700,
@@ -20,51 +21,55 @@ export default {
     heading: 1.125,
   },
   colors: {
-    text: '#244D4D',
+    text: '#000',
     background: '#fff',
-    primary: '#21383F',
-    secondary: '#D8B2B2',
+    primary: '#000',
+    secondary: '#6992a2',
     white: '#fff',
-    modes: {
-      dark: {
-        text: '#244D4D',
-        background: '#fff',
-        primary: '#21383F',
-        secondary: '#D8B2B2',
-      },
-    },
+    backdrop: 'rgba(0, 0, 0, 0.1)'
+    // modes: {
+    //   dark: {
+    //     text: '#244D4D',
+    //     background: '#fff',
+    //     primary: '#21383F',
+    //     secondary: '#D8B2B2',
+    //   },
+    // },
   },
   text: {
     heading: {
       fontFamily: 'heading',
       lineHeight: 'heading',
       fontWeight: 'heading',
+      letterSpacing: '-2px'
     },
   },
   containers: {
     normal: {
       variant: 'styles.container',
       maxWidth: '1690px',
-      padding: '100px'
-    }
+      padding: '100px',
+    },
   },
-
   cards: {
     primary: {
       height: 700,
       width: 800,
     },
   },
-
-
   styles: {
     root: {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
+      fontSize: 5,
     },
     container: {
       m: '0 auto',
+    },
+    a: {
+      color: 'inherit',
+      cursor: 'pointer',
     },
     h1: {
       variant: 'text.heading',
@@ -90,29 +95,9 @@ export default {
       variant: 'text.heading',
       fontSize: 0,
     },
-    pre: {
-      fontFamily: 'monospace',
-      overflowX: 'auto',
-      code: {
-        color: 'inherit',
-      },
-    },
     code: {
       fontFamily: 'monospace',
       fontSize: 'inherit',
-    },
-    table: {
-      width: '100%',
-      borderCollapse: 'separate',
-      borderSpacing: 0,
-    },
-    th: {
-      textAlign: 'left',
-      borderBottomStyle: 'solid',
-    },
-    td: {
-      textAlign: 'left',
-      borderBottomStyle: 'solid',
     },
   },
 };
