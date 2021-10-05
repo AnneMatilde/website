@@ -4,8 +4,7 @@ export const theme = {
   breakpoints: ['40em', '52em', '64em'],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
-    body:
-      '"EB Garamond", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", serif',
+    body: '"EB Garamond", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", serif',
     heading:
       'Syne, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", serif',
     monospace: 'Menlo, monospace',
@@ -26,7 +25,7 @@ export const theme = {
     primary: '#000',
     secondary: '#6992a2',
     white: '#fff',
-    backdrop: 'rgba(0, 0, 0, 0.1)'
+    backdrop: 'rgba(0, 0, 0, 0.1)',
     // modes: {
     //   dark: {
     //     text: '#244D4D',
@@ -41,7 +40,7 @@ export const theme = {
       fontFamily: 'heading',
       lineHeight: 'heading',
       fontWeight: 'heading',
-      letterSpacing: '-2px'
+      letterSpacing: '-2px',
     },
   },
   containers: {
